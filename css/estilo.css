@@ -1,0 +1,149 @@
+body{
+    /*width: 100%;
+    height: 100%;
+    /*background-color: rgb(1, 41, 89); */
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(to bottom right,rgb(1,12,24),rgb(50,100,150));
+    }
+
+#principal{
+    /*width: 100%;*/
+    height: 100vh;
+    /*background-color: rgb(1, 41, 89); */
+    /*background: linear-gradient(to bottom right,rgb(1,12,24),rgb(50,100,150));*/
+}
+#sombrero{
+    width: 220px;
+    height: 220px;
+    /*background-color: rgb(165, 91, 219);*/
+    top: 25px;
+    left: 50%;
+    border-radius: 110px;
+    position: absolute;
+    transform: translate(-50%,0%);
+}
+#copa{
+    background-color: indigo;
+    top:0px;
+    left:0px;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    transform: translate(60px,0px);
+}
+#aleron{
+    background-color: indigo;
+    top:50px;
+    left:0px;
+    width: 300px;
+    height:50px;
+    border-radius: 200px;
+    position: absolute;
+    transform: translate(-100px,0px);
+
+}
+#cabeza{
+    width: 220px;
+    height: 220px;
+    background-color: brown;    
+    top: 100px;
+    left: 50%;
+    border-radius: 110px;
+    position: absolute;
+    transform: translate(-50%,0%);
+}
+#ojoi,#ojod{
+    width: 40px;
+    height: 45px;
+    border-radius: 110px;
+    background-color: white;    
+    position: absolute;
+    top: 70px;
+}
+#ojoi{
+    left: 70px;    
+    transform: translate(-50%,0%);
+}
+#ojod{
+    left: 150px;    
+    transform: translate(-50%,0%);
+}
+#iris{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    top: 2px;
+    left:0px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(50%,50%);
+
+}
+
+#boca{
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    top: 150px;
+    left: 60px;
+    /*border-radius: 300px;*/
+    border-bottom-left-radius: 50% 100%;
+	border-bottom-right-radius: 50% 100%;
+    position: absolute;
+}
+#bocax{
+    background-color:white;
+    width: 60px;
+    height: 10px;
+    top: 10px;
+    left: 20px;
+    border-bottom-left-radius: 50% 100%;
+	border-bottom-right-radius: 50% 100%;
+    position: absolute;
+
+}
+#monyo{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 25px;
+    top:300px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#corbata{
+    background-color: green;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    left: -50px;
+    top:10px;    
+    position: absolute;
+}
+#cejai,#cejad{
+    width: 50px;
+    height: 10px;
+    background-color: black;    
+    border-radius: 20px;
+    position:absolute;        
+    top: 50px;
+    
+}
+#cejai{
+    transform: rotate(-20deg);
+    left: 40px;
+}
+#cejad{
+    transform: rotate(20deg);
+    left: 130px;
+}
+.txtv {
+    font-size: 36px;
+    color: white;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
